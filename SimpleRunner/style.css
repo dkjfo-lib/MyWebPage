@@ -1,0 +1,35 @@
+#game{
+	width: 500px;
+	height: 200px;
+	border: 1px solid black;
+}
+#character{
+	width: 20px;
+	height: 45px;
+	background-color: green;
+	position: relative;
+	top: 150px;
+	right: -50px;
+}
+.imJump{
+	animation: jumpAnim 500ms;
+}
+@keyframes jumpAnim{
+	0%{top: 150px;}
+	30%{top: 100px;}
+	70%{top: 100px;}
+	100%{top: 150px;}
+}
+#block{
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	position: relative;
+	top: 130px;
+	left: 480px;
+	animation: slideAnim 1s infinite linear;
+}
+@keyframes slideAnim{
+	0%{left: 480px;}
+	100%{left: 0px;}
+}
