@@ -1,0 +1,80 @@
+body{
+	background:black;
+	color:white;
+}
+
+a{
+	color:orange;
+}
+
+h1{
+	font-size: 25px;
+}
+h3{
+	font-size: 20px;
+}
+h3{
+	font-size: 15px;
+}
+ul, a{
+	font-size: 15px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color:red;
+}
+
+.button{
+	border-radius: 15px;
+	border: 2px solid  orange;
+
+	color: white;
+	text-align: center;
+	width: 100px; height: 20px;
+
+	margin: 5px; 
+	margin-top: 15px; 
+	margin-bottom: 15px; 
+}
+.button:hover{
+	border: 2px dashed  red;
+}
+
+li{
+	color:white;
+}
+li:nth-child(odd){
+	color: red;
+}
+li:nth-child(even){
+	color: orange;
+}
+
+header{
+	height: 150px;
+}
+
+.top{
+	display: flex;
+}
+.social{
+	display: flex;
+}
+
+a.siteIcon > img{
+}
+a.siteIcon > img{
+	background-color: black;
+
+	border: 3px solid orange;
+	border-radius: 5px;
+
+	width: 100px; height: 100px;
+}
+a.siteIcon > img:hover, a.siteIcon > img:active{
+	border: 3px solid red;
+
+	width: 105px; height: 105px;
+}

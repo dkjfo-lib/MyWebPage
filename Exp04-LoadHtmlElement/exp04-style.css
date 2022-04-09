@@ -1,0 +1,51 @@
+.navigation{
+	display: flex;
+}
+
+.button{
+	background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+	justify-content:center;
+}
+
+.bg{
+	background: url("./bg.png") no-repeat top center/cover;
+	height: 100vh;
+	overflow: auto;
+}
+
+.fade{
+	height: 100%;
+	width:100%;
+	overflow: auto;
+	position:absolute;
+	top:0px; left:0px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	width:80%;
+	margin:auto;
+	align-items:center;
+	text-align:center;
+}
+
+body{
+	margin:0px;
+}
+
+
+.subpage > div{
+	margin: 15px 0px 15px;
+	border: 2px dotted #666;
+	border-radius:5px;
+}
+
+.subpage-header{
+	padding: 0px 5px 0px;
+}
+
+.subpage-content{
+	padding: 2px 5px 2px;
+}

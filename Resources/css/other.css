@@ -1,0 +1,37 @@
+body{
+	background:black;
+	color:white;
+}
+
+header{
+	height: 150px;
+}
+
+.top{
+	display: flex;
+}
+.social{
+	display: flex;
+}
+.navigation{
+	display: flex;
+}
+
+
+.subpage{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+
+	margin: 15px 0px 15px;
+	border: 2px dotted #666;
+	border-radius:5px;
+}
+
+.subpage-header{
+	padding: 0px 5px 0px;
+}
+
+.subpage-content{
+	padding: 2px 5px 2px;
+}
